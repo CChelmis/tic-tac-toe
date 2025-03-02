@@ -24,7 +24,7 @@ function StartScreen({ onStartGame }) {
 
   return (
     <div className="start-screen">
-      <h1>Tic-Tac</h1>
+      <h1>Emma eisai kouukla</h1>
       <form onSubmit={handleSubmit}>
         <div className="input-group">
           <label htmlFor="player1">Player 1 (X):</label>
@@ -114,7 +114,7 @@ function Board({ player1Name, player2Name, player1Score, player2Score, onGameEnd
   return (
     <div className="game">
       <div className="game-header">
-        <h1>Tic-Tac</h1>
+        <h1>Emma eisai kouukla</h1>
         <button className="reset-scores-button" onClick={onResetScores} title="Reset Scores">
           ↻
         </button>
