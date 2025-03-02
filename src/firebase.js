@@ -1,15 +1,15 @@
 import { initializeApp } from "firebase/app";
 import { getDatabase } from "firebase/database";
 
-// Replace with your Firebase configuration
+// IMPORTANT: Replace with your actual Firebase configuration from the Firebase console
 const firebaseConfig = {
-  apiKey: "AIzaSyBXH7JgXIWzi7DNwjN7LzgX4bvRGqKMXXX",
-  authDomain: "tic-tac-toe-multiplayer-xxxx.firebaseapp.com",
-  projectId: "tic-tac-toe-multiplayer-xxxx",
-  databaseURL: "https://tic-tac-toe-multiplayer-xxxx-default-rtdb.firebaseio.com",
-  storageBucket: "tic-tac-toe-multiplayer-xxxx.appspot.com",
-  messagingSenderId: "123456789012",
-  appId: "1:123456789012:web:abcdef1234567890abcdef"
+  apiKey: "YOUR_ACTUAL_API_KEY",
+  authDomain: "your-actual-project-id.firebaseapp.com",
+  projectId: "your-actual-project-id",
+  databaseURL: "https://your-actual-project-id-default-rtdb.firebaseio.com", 
+  storageBucket: "your-actual-project-id.appspot.com",
+  messagingSenderId: "YOUR_ACTUAL_MESSAGING_SENDER_ID",
+  appId: "YOUR_ACTUAL_APP_ID"
 };
 
 // Initialize Firebase
